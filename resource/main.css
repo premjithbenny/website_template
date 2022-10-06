@@ -1,0 +1,300 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    text-decoration-line:none;
+}
+
+
+#firstid{
+
+    background-image:url("R.jpg");
+    background-size:cover;
+    background-position: 100%;
+    padding: 20px;
+    border-style:solid;
+    border-width:1px;
+    height:500px;
+   
+}
+
+.main-header{
+
+    width:100%;
+    background-color: pink ;
+    padding:8px 16px;
+    vertical-align: middle;
+    position:fixed;
+    z-index:1;
+}
+
+.main-header > div{
+    display:inline-block;
+}
+
+.main-header__brand{
+
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Goldman', cursive;
+    display:inline-block;
+    height:25px;
+   
+}
+
+.main-header__brand img{
+
+    height:100%;
+    width:100%;
+}
+.main-nav{
+
+    display:inline-block;
+    text-align:right;
+    width: 90%;
+    
+}
+
+.main-nav__item{
+    
+    display: inline-block; 
+    margin-left:30px;
+    font-family: 'Goldman', cursive;
+    vertical-align: middle;
+    font-weight:bold;
+    padding-bottom: 2px;
+    
+}
+
+.main-nav__item--cta{
+
+border-radius: 4px;
+background-color: white ;
+}
+
+.main-nav__item a{
+
+    text-decoration: none;
+    color: purple;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active{
+
+    color:white;
+    border-bottom: white 5px solid;
+}
+
+
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+
+    color:white;
+    background-color: purple ;
+    border-bottom: none;
+}
+
+div ul{
+    list-style-type: none   ;
+    font-family: 'Koulen', cursive;
+    color: black;
+}
+.Plan{
+
+    display:inline-block;
+    width:33%;
+    margin-left:2px;
+    text-align:center;
+    background-color: palevioletred;
+    border-color:red;
+    border-style:solid;
+    border-radius: 3px;
+    margin:1px;
+}
+
+#secondid{
+
+    color:palevioletred;
+    text-align:center;
+}
+
+div > h3{
+
+    color:aliceblue;
+}
+
+div > h2{
+
+    color:pink;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#firstid > h1{
+    
+    font-family: 'Koulen', cursive;
+    font-size:50px;
+    text-align:center;
+    vertical-align:middle;
+    align-items: center;
+    padding-top:150px;
+}
+
+
+div button{
+
+    border-radius: 10px;
+    border-color: white;
+    font-family: 'Koulen', cursive;
+    font-size:30px;
+}
+
+div button:hover,
+div button:active{
+
+    background-color: pink;   
+}
+
+section > h1{
+
+    color:palevioletred;
+    text-align:center;
+}
+
+#Reasons{
+
+    background-color:lightgoldenrodyellow;
+    margin-top:30px;
+    width:100%;
+}
+
+.key-feature{
+
+    padding:30px;
+    display:inline-block;
+    
+    
+}
+
+#list{
+    padding:0%;
+    text-align: center;
+    
+}
+
+#middlePara{
+
+    margin-left:60px;
+    margin-right:60px;
+    padding-left:90px;
+    padding-right:90px;
+}
+
+.main-footer{
+    background:black;
+    padding:32px;
+    margin-top:48px;
+    
+}
+
+.main-footer__links{
+
+    list-style-type: none;
+    text-align: center;
+    margin:0;
+    padding:0;
+   
+}
+
+.main-footer__link{
+
+    display:inline-block;
+    margin:0 16px;
+}
+
+.main-footer__link a{
+    color: white;
+    text-decoration:none;
+}
+
+.main-footer__link a:hover,
+.main-footer__link a:active{
+
+    background:white;
+    color:black;
+}
+
+.packages-main{
+    
+    padding-top: 64px;
+    background:url("plans-background.jpg");
+    z-index: -1;
+}
+
+.packages-main__borderbox{
+   
+    margin-bottom:16px;
+    border: solid black 1px;
+    width:50%;
+    background-color: palegoldenrod;  
+
+ }
+
+ .packages-main__borderboxes a{
+   
+   text-decoration: none;
+   display:block;
+   padding: 64px;
+   color:white;
+ }
+
+ .packages-main__borderbox h1{
+   
+    color: black;
+
+ }
+
+ .packages-main__borderbox h2{
+
+    padding:32px 0px;
+    color:white;
+
+ }
+
+.packages-main__borderbox p{
+
+    border: 1px black solid;
+    padding: 16px;
+    color: black;
+
+}
+
+#recommended{
+
+    position:absolute;
+    top:70px;
+    left:500px;
+    border: 1px solid black;
+    padding: 0px;
+    background: white;
+    color:red;
+
+}
+
+#recommended:hover,
+#recommended:active{
+
+    background:red;
+    color:white;
+}
+
+.packages-para{
+
+    background: white;
+}
+
+#recommended-package{
+
+    position:relative;
+    left:800px;
+}
